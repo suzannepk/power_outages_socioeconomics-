@@ -1,3 +1,5 @@
+ORNL TEAM TODO: Pull the text below out of the "Introduction" notebook and rename that notebook something like exploring data. Tighten up the organiztion in the the 4 notebooks. Put links to them in this guide. Strech goals add the MPI stuff to the interpolation/aggrigation notebooks. Add more insturctions in choropleth notenbook. 
+
 # Power Outages and Socioeconomics
 ECP Bootcamp 
 
