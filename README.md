@@ -1,5 +1,6 @@
 # Power Outages Socioeconomics
 ECP Bootcamp 
+
 ### Welcome!!
 
 This guide will help walk you throught learning the python and some of the statstics that could be useful to you proejct. It is full of tips that will help you. 
