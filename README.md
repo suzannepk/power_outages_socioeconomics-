@@ -1,6 +1,6 @@
 # Power Outages Socioeconomics
 ECP Bootcamp 
-1. Welcome!!
+### Welcome!!
 
 In June of 2016, a heatwave swept across the SW United States, causing severe loads on the power grid and leading to large number of power outages across several counties. We are going to be exploring correlations between temperature and power outages, energy burden and poverty.
 
@@ -8,7 +8,7 @@ Energy justice in the United States means making sure that people have access to
 
 The ability to effectively respond to and facilitate the restoration of energy systems during disasters relies on the ability of local and federal agencies and first responders to have timely, accurate, and actionable information about the status and potential impacts of energy sector disruptions. The US Department of Energy (DOE) provides information about these disruptions via its Environment for Analysis of Geo-Located Energy Information (EAGLE-I) system run by Oak Ridge National Laboratory. EAGLE-I provides capabilities for monitoring energy infrastructure assets, reporting energy outages, and displaying potential threats to energy infrastructure, and coordinating emergency response and recovery.
 
-EAGLE-I Background
+### EAGLE-I Background
 
 EAGLE-I is the US Department of Energy’s data and information platform for real-time wide-area situational awareness of the energy sector, sponsored by the DOE Office of Cybersecurity, Energy Security, and Emergency Response​.
 
@@ -18,14 +18,15 @@ Developed by the Office of Electricity Delivery and Energy Reliability’s (OE) 
 
 This notebook will guide you through the stages of this project, and by the end we will have explored and identified correlations both using visual plots and statistical tests.
 
-Goals:
+### Goals:
 
-Discuss access to electrical power and the cost burden for that access and how those issues relate to poverty.
-Understand how to use statistical tests to justify correlations.
-Understand how to create and use visualizations to show connections and correlations in big data.
-Utilize Python and Excel to explore large data frames.
-Discuss how doing tasks in parallel is more efficient than doing them in series.
-The Big Questions for this Project:
+* Discuss access to electrical power and the cost burden for that access and how those issues relate to poverty.
+* Understand how to use statistical tests to justify correlations.
+* Understand how to create and use visualizations to show connections and correlations in big data.
+* Utilize Python and Excel to explore large data frames.
+* Discuss how doing tasks in parallel is more efficient than doing them in series.
+
+### The Big Questions for this Project:
 
 Which counties were hit with the highest temperatures in 2016? Can you show it visually? (Datasets: CtyAvTemp62016.csv)
 
@@ -55,17 +56,18 @@ Question 5 will require you to find more data than we have provided and do a lot
 
 Some reading resources:
 
-Map of burdened communities: https://screeningtool.geoplatform.gov/en
-Articles about the 2016 heatwave:
-https://web.archive.org/web/20160622004100/
-https://weather.com/forecast/regional/news/dangerous-record-heat-southwest-plains
-https://www.huffpost.com/entry/record-heat-wildfires-west-us_n_57678bb4e4b015db1bc9be59?section=
-Medicare at risk population map: https://empowerprogram.hhs.gov/empowermap
-FIPS Codes - https://en.wikipedia.org/wiki/List_of_United_States_FIPS_codes_by_county
-Useful Jupyter examples for this project - https://github.com/secondspass/jupyter_bootcampproject_examples/
-Pandas tutorial - https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/
-Nice visualization of past temperature information - https://www.timeanddate.com/weather/usa/los-angeles/historic?month=6&year=2016016/historic?month=6&year=20166&year=2016
-Explanation of 2010 census data categories: https://screeningtool.geoplatform.gov/en/methodology
+* Map of burdened communities: https://screeningtool.geoplatform.gov/en
+* Articles about the 2016 heatwave:
+* https://web.archive.org/web/20160622004100/
+* https://weather.com/forecast/regional/news/dangerous-record-heat-southwest-plains
+* https://www.huffpost.com/entry/record-heat-wildfires-west-us_n_57678bb4e4b015db1bc9be59?section=
+* Medicare at risk population map: https://empowerprogram.hhs.gov/empowermap
+* FIPS Codes - https://en.wikipedia.org/wiki/List_of_United_States_FIPS_codes_by_county
+* Useful Jupyter examples for this project - https://github.com/secondspass/jupyter_bootcampproject_examples/
+* Pandas tutorial - https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/
+* Nice visualization of past temperature information - https://www.timeanddate.com/weather/usa/los-angeles/historic?month=6&year=2016016/historic?month=6&year=20166&year=2016
+( Explanation of 2010 census data categories: https://screeningtool.geoplatform.gov/en/methodology
+
 Dataset
 
 First things first, let's look at our data. We're going to be looking at our data using Excel (or Google Sheets) just so you're familiar with what the data should look like. All the data we need is in this google drive folder: https://drive.google.com/drive/folders/1fAaBPgWWaA_9VB2iYUAWeW8biTXJQFwZ?usp=sharing
