@@ -5,7 +5,7 @@ ECP Bootcamp
 
 This guide will help walk you throught learning the python and some of the statstics that could be useful to you proejct. It is full of tips that will help you. 
 
-### Teeing up the Problem### Teeing up the Problem
+### Teeing up the Problem
 
 In June of 2016, a heatwave swept across the SW United States, causing severe loads on the power grid, and leading to large number of power outages across several counties. We are going to be exploring correlations between temperature and power outages, energy burden and poverty.
 
