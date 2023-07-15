@@ -1,9 +1,9 @@
-# Power Outages Socioeconomics
+# Power Outages and Socioeconomics
 ECP Bootcamp 
 
 ### Welcome!!
 
-This guide will help walk you throught learning the python and some of the statstics that could be useful to you proejct. It is full of tips that will help you. 
+This README will guide you through the stages of this project, and by the end we will have explored and identified correlations both using visual plots and statistical tests. It is full of tips that will help you. 
 
 ### Teeing up the Problem
 
@@ -15,16 +15,14 @@ The ability to effectively respond to and facilitate the restoration of energy s
 
 We want you to help us start to build tools and processes that will help us understand if underserved populations and people dealing with larger levels of poverty get the same access and service for energy for the same energy burden as more severed and wealthy populations. We have data sets with a resolution at the county level. One gives the average fraction of the population that lives below 100% and 200% of the federal poverty level in each county as well as, energy burden and demographic data. There is another set that shows how may customer were without power in 15-minute intervals from 2015-2021. We have a other set that tracks the June 2016 heat wave temperatures that we will be using to explore what happens to energy justice when the power grid is under stress.  Use this data to help us begin to monitor and better understand energy justice in the United States!   
 
-
 ### EAGLE-I Background
 
-EAGLE-I is the US Department of Energy’s data and information platform for real-time wide-area situational awareness of the energy sector, sponsored by the DOE Office of Cybersecurity, Energy Security, and Emergency Response​. It is deveoped and run from Oak Ridge National Laboratory in Tennessee. 
+EAGLE-I is the US Department of Energy’s data and information platform for real-time wide-area situational awareness of the energy sector, sponsored by the DOE Office of Cybersecurity, Energy Security, and Emergency Response. It is developed and run from Oak Ridge National Laboratory in Tennessee. 
 
-The EAGLE-I system allows local, state, and federal government agencies, and private sector electricity and fuel providers to have access to timely, accurate, and actionable information about the status and potential impacts of energy sector disruptions, and provides a modernized framework for the next set of capabilities in emergency response support.
+The EAGLE-I system allows local, state, and federal government agencies, and private sector electricity and fuel providers to have access to timely, accurate, and actionable information about the status and potential impacts of energy sector disruptions and provides a modernized framework for the next set of capabilities in emergency response support.
 
-Developed by the Office of Electricity Delivery and Energy Reliability’s (OE) Infrastructure Security and Energy Restoration (ISER) division, EAGLE-I uses data science approaches to provide a centralized platform for monitoring power distribution outages for over 133 million customers, with just over 90% coverage of the US and Territories​. OE provides EAGLE-I as a service to other Federal, State, and local Agencies and Departments and first responders aligning with DOE’s Emergency Support Function-12 (ESF-12) mission, and users come from DOE, DHS, NGA, DOD, FEMA, USDA, and state emergency responders, among others.​​
+Developed by the Office of Electricity Delivery and Energy Reliability’s (OE) Infrastructure Security and Energy Restoration (ISER) division, EAGLE-I uses data science approaches to provide a centralized platform for monitoring power distribution outages for over 133 million customers, with just over 90% coverage of the US and Territories. Oak Ridge National Laboratory provides EAGLE-I as a service to other Federal, State, and local agencies and departments and first responders aligning with DOE’s Emergency Support Function-12 (ESF-12) mission, and users come from DOE, DHS, NGA, DOD, FEMA, USDA, and state emergency responders, among others.
 
-This notebook will guide you through the stages of this project, and by the end we will have explored and identified correlations both using visual plots and statistical tests.
 
 ### Goals:
 
@@ -42,13 +40,13 @@ This notebook will guide you through the stages of this project, and by the end 
 
 2. Can you show the average number of customers without power per county during the heatwave? Can you visualize it for the whole US? (Data sets: eaglei_outages_2016.csv, CtyAvTemp62016.csv )
 
-3. Do counties with a large number of people living below the poverty line have more power outages on average than wealthier counties? (Data sets: CtyAvDemog2010, aglei_outages_2016.csv) Can you use statistical tests to justify your answer? Is what you found true generally for all counties in the study? Is it still true for the counties hardest hit by the heatwave during the heatwave? Are there any other factors expressed in the data that correlate with large numbers of outages per county?
+3. Do counties with many people living below the poverty line have more power outages on average than wealthier counties? (Data sets: CtyAvDemog2010, aglei_outages_2016.csv) Can you use statistical tests to justify your answer? Is what you found true generally for all counties in the study? Is it still true for the counties hardest hit by the heatwave during the heatwave? Are there any other factors expressed in the data that correlate with large numbers of outages per county?
 
-4. Do citizen living below the poverty level bear a greater share of the energy burden in most counties? Can you use statistical tests to justify your answer? What does this look like for the counties that you identified as impacted most by the heatwave? (Data sets: CtyAvDemog2010 data,eaglei_outages_2016.csv)
+4. Do citizen living below the poverty level bear a greater share of the energy burden in most counties? Can you use statistical tests to justify your answer? What does this look like for the counties that you identified as impacted most by the heatwave? (Datasets: CtyAvDemog2010 data, eaglei_outages_2016.csv)
 
-You are doing super well if you get though question 4! 5 and 6 are stretch goals.  
+You are doing super well if you get through question 4! 5 and 6 are stretch goals.  
 
-5.  Can you tell if the number of customers without power is correlated with the highest temperatures? (DataSets: eaglei_outages_2016.csv and ones you find!)
+5.  Can you tell if the number of customers without power is correlated with the highest temperatures? (Datasets: eaglei_outages_2016.csv and ones you find!)
 
 6. Done with time to spare? How is the region you are from doing with energy justice? How does it compare to other regions of the US? Defend how you define "Region". 
 
@@ -58,11 +56,11 @@ Look for data on the internet about another natural disaster that happened betwe
 
 ### The Final Product:
 
-You will combine your visualizations and insights from answering the big questions in to a presentation that you will give on the last day of the workshop.
+You will combine your visualizations and insights from answering the big questions into a presentation that you will give on the last day of the workshop.
 
 ## Important Notes on the Big Questions:
 
-* Not all team members need to work on all exercises and questions. It would be best to split up the work. It is fine if you cannot answer all the big questions or all of their parts.
+* Not all team members need to work on all exercises and questions. It would be best to split up the work. It is fine if you cannot answer all the big questions or all their parts.
 
 * You will need to answer basics of the first four questions to completely meet the first goal of this project.
 
@@ -70,7 +68,8 @@ You will combine your visualizations and insights from answering the big questio
 
 * Question 4 can be mostly answered by using just the CtyAvDemog2010.csv data.
 
-* Question 5 will require you to find more data than we have provided and do a lot of interpolation. I suggest you start by googling “Hourly temperature for LA for June 20, 2016”. Remeber that your egale-I data's time is given in UTC. 
+* Question 5 will require you to find more data than we have provided and do a lot of interpolation. I suggest you start by googling “Hourly temperature for LA for June 20, 2016”. Remember that your eagle-I data's time is given in UTC.
+
 
 #### Some reading resources:
 
