@@ -38,23 +38,23 @@ Do citizen living below the poverty level bear a greater share of the energy bur
 
 Can you tell if the number of customers without power is correlated with the highest temperatures? (DataSets: eaglei_outages_2016.csv and ones you find!)
 
-The Final Product:
+### The Final Product:
 
 You will combine your visualizations and insights from answering the big questions in to a presentation that you will give on the last day of the workshop.
 
-Important Notes on the Big Questions:
+## Important Notes on the Big Questions:
 
-Not all team members need to work on all exercises and questions. It would be best to split up the work. It is fine if you cannot answer all the big questions or all of their parts.
+* Not all team members need to work on all exercises and questions. It would be best to split up the work. It is fine if you cannot answer all the big questions or all of their parts.
 
-You will need to answer basics of the first four questions to completely meet the first goal of this project.
+* You will need to answer basics of the first four questions to completely meet the first goal of this project.
 
-You will need to answer questions 1 and 2 to answer questions 3.
+* You will need to answer questions 1 and 2 to answer questions 3.
 
-Question 4 can be mostly answered by using just the CtyAvDemog2010.csv data.
+* Question 4 can be mostly answered by using just the CtyAvDemog2010.csv data.
 
-Question 5 will require you to find more data than we have provided and do a lot of interpolation. I suggest you start by googling “Hourly temperature for LA for June 20, 2016” .
+* Question 5 will require you to find more data than we have provided and do a lot of interpolation. I suggest you start by googling “Hourly temperature for LA for June 20, 2016” .
 
-Some reading resources:
+#### Some reading resources:
 
 * Map of burdened communities: https://screeningtool.geoplatform.gov/en
 * Articles about the 2016 heatwave:
@@ -68,22 +68,20 @@ Some reading resources:
 * Nice visualization of past temperature information - https://www.timeanddate.com/weather/usa/los-angeles/historic?month=6&year=2016016/historic?month=6&year=20166&year=2016
 ( Explanation of 2010 census data categories: https://screeningtool.geoplatform.gov/en/methodology
 
-Dataset
+### Datasets
 
 First things first, let's look at our data. We're going to be looking at our data using Excel (or Google Sheets) just so you're familiar with what the data should look like. All the data we need is in this google drive folder: https://drive.google.com/drive/folders/1fAaBPgWWaA_9VB2iYUAWeW8biTXJQFwZ?usp=sharing
 
 We are going to be working with four main datasets:
 
-eaglei_outages/eaglei_outages_2016.csv - provides the breakdown of the number of customers that were out of power in the year 2016, for each county in the US, with data for each 15 minute increment covering the entire year.
+* eaglei_outages/eaglei_outages_2016.csv - provides the breakdown of the number of customers that were out of power in the year 2016, for each county in the US, with data for each 15 minute increment covering the entire year.
 
-temperaturedata/CtyAvTemp62016.csv - in the temperaturedata folder, each .csv file is the average temperature of the day for each county in the US and its territories. The numbers in the file name represent the date. For example CtyAvTemp61716.csv is the data for June 17 2016.
+* temperaturedata/CtyAvTemp62016.csv - in the temperaturedata folder, each .csv file is the average temperature of the day for each county in the US and its territories. The numbers in the file name represent the date. For example CtyAvTemp61716.csv is the data for June 17 2016.
 
-CtyAvDemog2010 data - 2010 census data with socioeconomic measures, including energy burden, health, and age demographics, averaged by county. You may need to use Google to understand what each of the headers in this data set mean.
+* CtyAvDemog2010 data - 2010 census data with socioeconomic measures, including energy burden, health, and age demographics, averaged by county. You may need to use Google to understand what each of the headers in this data set mean.
 
-2016_HHSemPOWERMapHistoricalDataset.xlsx - provides the number of medicare beneficiaries and individuals who have power dependent devices across the United States for each month
+* Data and scientific inspiration and guidance for this project was developed by ORNL Scientists Melissa Dumas and Sarah Tennille.
 
-Data and scientific inspiration and guidance for this project was developed by ORNL Scientists Melissa Dumas and Sarah Tennille.
+* NOTE: Something you'll find as you work with these datasets is that there might be some data missing here and there e.g. There might not be power outage information for some county for some given day. That's just the nature of data science sometimes, that the data you have isn't perfect. So you have to make sure that you're using the data you have and making sure you're accounting for any missing data when before you make any conclusions. You may need to use Excel or your favorite method to "Clean" some of the data sets. Cleaning is the process of removing problematic data, such as ASCII letters or punctuation characters that appear where numbers should be, or reformatting one set of data, so it can be compared to another set.
 
-NOTE: Something you'll find as you work with these datasets is that there might be some data missing here and there e.g. There might not be power outage information for some county for some given day. That's just the nature of data science sometimes, that the data you have isn't perfect. So you have to make sure that you're using the data you have and making sure you're accounting for any missing data when before you make any conclusions. You may need to use Excel or your favorite method to "Clean" some of the data sets. Cleaning is the process of removing problematic data, such as ASCII letters or punctuation characters that appear where numbers should be, or reformatting one set of data, so it can be compared to another set.
-
-The exercises and tutorials below familiarize you with the provided data and prepare you to answer the the big questions.
+The exercises and tutorials linked below are in Jupyter notebooks and will familiarize you with the provided data and prepare you to answer the the big questions.
