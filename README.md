@@ -25,6 +25,8 @@ This notebook will guide you through the stages of this project, and by the end 
 * Understand how to create and use visualizations to show connections and correlations in big data.
 * Utilize Python and Excel to explore large data frames.
 * Discuss how doing tasks in parallel is more efficient than doing them in series.
+* Explain the assumptions you made in your analysis. For example, if you use “total customers” for a given region to represent relative total populations between counties, acknowledge that all while the members of one household are counted as one customer and businesses are customers too, total customers is still a measure of relative size of the populations of customers living in each county.
+
 
 ### The Big Questions for this Project:
 
@@ -85,3 +87,12 @@ We are going to be working with four main datasets:
 * NOTE: Something you'll find as you work with these datasets is that there might be some data missing here and there e.g. There might not be power outage information for some county for some given day. That's just the nature of data science sometimes, that the data you have isn't perfect. So you have to make sure that you're using the data you have and making sure you're accounting for any missing data when before you make any conclusions. You may need to use Excel or your favorite method to "Clean" some of the data sets. Cleaning is the process of removing problematic data, such as ASCII letters or punctuation characters that appear where numbers should be, or reformatting one set of data, so it can be compared to another set.
 
 The exercises and tutorials linked below are in Jupyter notebooks and will familiarize you with the provided data and prepare you to answer the the big questions.
+
+
+
+
+
+
+
+
+Note: You do not have to tackle the Big Questions with these exercises if you have an another plan in mind to work with. These are here to help you get started and are not mandatory.
