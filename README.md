@@ -49,10 +49,12 @@ You are doing super well if you get through question 4! 5 and 6 are stretch goal
 5.  Can you tell if the number of customers without power is correlated with the highest temperatures? (Datasets: eaglei_outages_2016.csv and ones you find!)
 
 6. Done with time to spare? How is the region you are from doing with energy justice? How does it compare to other regions of the US? Defend how you define "Region". 
+  And/Or
 
-And/Or
+  Look for data on the internet about another natural disaster that happened between 2015 and 2021 and see if you can repeat the analysis for it.
 
-Look for data on the internet about another natural disaster that happened between 2015 and 2021 and see if you can repeat the analysis for it.
+**Note** You do not have to tackle the Big Questions with the exercises given in this guide if you have another plan in mind to work with. These are here to help you get started and are not mandatory.
+
 
 ### The Final Product:
 
@@ -101,13 +103,15 @@ We are going to be working with four main datasets:
 
 * NOTE: Something you'll find as you work with these datasets is that there might be some data missing here and there e.g. There might not be power outage information for some county for some given day. That's just the nature of data science sometimes, that the data you have isn't perfect. So you have to make sure that you're using the data you have and making sure you're accounting for any missing data when before you make any conclusions. You may need to use Excel or your favorite method to "Clean" some of the data sets. Cleaning is the process of removing problematic data, such as ASCII letters or punctuation characters that appear where numbers should be, or reformatting one set of data, so it can be compared to another set.
 
+### Jupyter Notebooks
+
 The exercises and tutorials linked below are in Jupyter notebooks and will familiarize you with the provided data and prepare you to answer the the big questions.
+1. Link 1
+2. Link 2
+3. Link 3
+4. Link 4
 
 
 
 
 
-
-
-
-Note: You do not have to tackle the Big Questions with these exercises if you have an another plan in mind to work with. These are here to help you get started and are not mandatory.
