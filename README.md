@@ -2,15 +2,22 @@
 ECP Bootcamp 
 ### Welcome!!
 
-In June of 2016, a heatwave swept across the SW United States, causing severe loads on the power grid and leading to large number of power outages across several counties. We are going to be exploring correlations between temperature and power outages, energy burden and poverty.
+This guide will help walk you throught learning the python and some of the statstics that could be useful to you proejct. It is full of tips that will help you. 
+
+### Teeing up the Problem### Teeing up the Problem
+
+In June of 2016, a heatwave swept across the SW United States, causing severe loads on the power grid, and leading to large number of power outages across several counties. We are going to be exploring correlations between temperature and power outages, energy burden and poverty.
 
 Energy justice in the United States means making sure that people have access to energy and are also not being charged disproportionately to their income for the basic energy services that are standardly provided. An energy burden is the fraction of a person’s income that goes toward paying for their electrical power.
 
 The ability to effectively respond to and facilitate the restoration of energy systems during disasters relies on the ability of local and federal agencies and first responders to have timely, accurate, and actionable information about the status and potential impacts of energy sector disruptions. The US Department of Energy (DOE) provides information about these disruptions via its Environment for Analysis of Geo-Located Energy Information (EAGLE-I) system run by Oak Ridge National Laboratory. EAGLE-I provides capabilities for monitoring energy infrastructure assets, reporting energy outages, and displaying potential threats to energy infrastructure, and coordinating emergency response and recovery.
 
+We want you to help us start to build tools and processes that will help us understand if underserved populations and people dealing with larger levels of poverty get the same access and service for energy for the same energy burden as more severed and wealthy populations. We have data sets with a resolution at the county level. One gives the average fraction of the population that lives below 100% and 200% of the federal poverty level in each county as well as, energy burden and demographic data. There is another set that shows how may customer were without power in 15-minute intervals from 2015-2021. We have a other set that tracks the June 2016 heat wave temperatures that we will be using to explore what happens to energy justice when the power grid is under stress.  Use this data to help us begin to monitor and better understand energy justice in the United States!   
+
+
 ### EAGLE-I Background
 
-EAGLE-I is the US Department of Energy’s data and information platform for real-time wide-area situational awareness of the energy sector, sponsored by the DOE Office of Cybersecurity, Energy Security, and Emergency Response​.
+EAGLE-I is the US Department of Energy’s data and information platform for real-time wide-area situational awareness of the energy sector, sponsored by the DOE Office of Cybersecurity, Energy Security, and Emergency Response​. It is deveoped and run from Oak Ridge National Laboratory in Tennessee. 
 
 The EAGLE-I system allows local, state, and federal government agencies, and private sector electricity and fuel providers to have access to timely, accurate, and actionable information about the status and potential impacts of energy sector disruptions, and provides a modernized framework for the next set of capabilities in emergency response support.
 
@@ -25,20 +32,28 @@ This notebook will guide you through the stages of this project, and by the end 
 * Understand how to create and use visualizations to show connections and correlations in big data.
 * Utilize Python and Excel to explore large data frames.
 * Discuss how doing tasks in parallel is more efficient than doing them in series.
-* Explain the assumptions you made in your analysis. For example, if you use “total customers” for a given region to represent relative total populations between counties, acknowledge that all while the members of one household are counted as one customer and businesses are customers too, total customers is still a measure of relative size of the populations of customers living in each county.
+* Explain the assumptions you made in your analysis. For example, if you use “total customers” for a given region to represent relative total populations between counties, acknowledge that while the members of one household are all counted as one customer and businesses are a customer too, "total customers" is still a measure of relative size of the populations of customers living in each county.
 
 
 ### The Big Questions for this Project:
 
-Which counties were hit with the highest temperatures in 2016? Can you show it visually? (Datasets: CtyAvTemp62016.csv)
+1. Which counties were hit with the highest temperatures in 2016? Can you show it visually? (Datasets: CtyAvTemp62016.csv)
 
-Can you show the average number of customers without power per county during the heatwave? Can you visualize it for the whole US? (Data sets: eaglei_outages_2016.csv, CtyAvTemp62016.csv )
+2. Can you show the average number of customers without power per county during the heatwave? Can you visualize it for the whole US? (Data sets: eaglei_outages_2016.csv, CtyAvTemp62016.csv )
 
-, 3. Do counties with a large number of people living below the poverty line have more power outages on average than wealthier counties? (Data sets: CtyAvDemog2010, aglei_outages_2016.csv) Can you use statistical tests to justify your answer? Is what you found true generally for all counties in the study? Is it still true for the counties hardest hit by the heatwave during the heatwave? Are there any other factors expressed in the data that correlate with large numbers of outages per county?
+3. Do counties with a large number of people living below the poverty line have more power outages on average than wealthier counties? (Data sets: CtyAvDemog2010, aglei_outages_2016.csv) Can you use statistical tests to justify your answer? Is what you found true generally for all counties in the study? Is it still true for the counties hardest hit by the heatwave during the heatwave? Are there any other factors expressed in the data that correlate with large numbers of outages per county?
 
-Do citizen living below the poverty level bear a greater share of the energy burden in most counties? Can you use statistical tests to justify your answer? What does this look like for the counties that you identified as impacted most by the heatwave? (Data sets: CtyAvDemog2010 data,eaglei_outages_2016.csv)
+4. Do citizen living below the poverty level bear a greater share of the energy burden in most counties? Can you use statistical tests to justify your answer? What does this look like for the counties that you identified as impacted most by the heatwave? (Data sets: CtyAvDemog2010 data,eaglei_outages_2016.csv)
 
-Can you tell if the number of customers without power is correlated with the highest temperatures? (DataSets: eaglei_outages_2016.csv and ones you find!)
+You are doing super well if you get though question 4! 5 and 6 are stretch goals.  
+
+5.  Can you tell if the number of customers without power is correlated with the highest temperatures? (DataSets: eaglei_outages_2016.csv and ones you find!)
+
+6. Done with time to spare? How is the region you are from doing with energy justice? How does it compare to other regions of the US? Defend how you define "Region". 
+
+And/Or
+
+Look for data on the internet about another natural disaster that happened between 2015 and 2021 and see if you can repeat the analysis for it.
 
 ### The Final Product:
 
