@@ -15,7 +15,7 @@ Energy justice in the United States means making sure that people have access to
 
 The ability to effectively respond to and facilitate the restoration of energy systems during disasters relies on the ability of local and federal agencies and first responders to have timely, accurate, and actionable information about the status and potential impacts of energy sector disruptions. The US Department of Energy (DOE) provides information about these disruptions via its Environment for Analysis of Geo-Located Energy Information (EAGLE-I) system run by Oak Ridge National Laboratory. EAGLE-I provides capabilities for monitoring energy infrastructure assets, reporting energy outages, and displaying potential threats to energy infrastructure, and coordinating emergency response and recovery.
 
-We want you to help us start to build tools and processes that will help us understand if underserved populations and people dealing with larger levels of poverty get the same access and service for energy for the same energy burden as more severed and wealthy populations. We have data sets with a resolution at the county level. One gives the average fraction of the population that lives below 100% and 200% of the federal poverty level in each county as well as, energy burden and demographic data. There is another set that shows how may customer were without power in 15-minute intervals from 2015-2021. We have a other set that tracks the June 2016 heat wave temperatures that we will be using to explore what happens to energy justice when the power grid is under stress.  Use this data to help us begin to monitor and better understand energy justice in the United States!   
+We want you to help us start to build tools and processes that will help us understand if underserved populations and people dealing with larger levels of poverty get the same access and service for energy for the same energy burden as more severed and wealthy populations. We have data sets with a resolution at the county level. One gives the average fraction of the population that lives below 100% and 200% of the federal poverty level in each county as well as, energy burden and demographic data. There is another set that shows how may customer were without power in 15-minute intervals from 2015-2021. We have a other set that tracks the June 2016 heat wave temperatures that we will be using to explore what happens to energy justice when the power grid is under stress. Use this data to help us begin to monitor and better understand energy justice in the United States!   
 
 ### EAGLE-I Background
 
@@ -108,9 +108,21 @@ We are going to be working with four main datasets:
 ### Jupyter Notebooks
 
 The exercises and tutorials linked below are in Jupyter notebooks and will familiarize you with the provided data and prepare you to answer the the big questions.
-1. Link 1
-2. Link 2
-3. Link 3
+
+1. Introduction - https://github.com/suzannepk/power_outages_socioeconomics-/blob/master/1_Introduction.ipynb
+  * Analyzing data using Google Sheets
+  * Introduction to Python and Pandas
+  * Reading Excel Files, Filtering Data
+  * Plotting Data
+  
+2. Data Aggregation - https://github.com/suzannepk/power_outages_socioeconomics-/blob/master/2_Data_Aggregation_and_Integration.ipynb
+  * Calculating average and median number of power outages
+  * Merging datasets
+  * To remove:
+3. Time-Series Visualization - https://github.com/suzannepk/power_outages_socioeconomics-/blob/master/3_TimeSeries_Visualization.ipynb
+  * Representing time-series data with line-charts
+  * Up-sampling data with numpy
+  *
 4. Link 4
 
 
