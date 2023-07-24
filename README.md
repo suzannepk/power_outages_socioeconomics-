@@ -77,17 +77,19 @@ You will combine your visualizations and insights from answering the big questio
 
 #### Some reading resources:
 
+* Explanation of 2010 census data categories: https://screeningtool.geoplatform.gov/en/methodology
 * Map of burdened communities: https://screeningtool.geoplatform.gov/en
 * Articles about the 2016 heatwave:
 * https://web.archive.org/web/20160622004100/
 * https://weather.com/forecast/regional/news/dangerous-record-heat-southwest-plains
 * https://www.huffpost.com/entry/record-heat-wildfires-west-us_n_57678bb4e4b015db1bc9be59?section=
+* Nice visualization of past temperature information: https://www.timeanddate.com/weather/usa/los-angeles/historic?month=6&year=2016016/historic?month=6&year=20166&year=2016
 * Medicare at risk population map: https://empowerprogram.hhs.gov/empowermap
 * FIPS Codes - https://en.wikipedia.org/wiki/List_of_United_States_FIPS_codes_by_county
-* Useful Jupyter examples for this project - https://github.com/secondspass/jupyter_bootcampproject_examples/
-* Pandas tutorial - https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/
-* Nice visualization of past temperature information - https://www.timeanddate.com/weather/usa/los-angeles/historic?month=6&year=2016016/historic?month=6&year=20166&year=2016
-( Explanation of 2010 census data categories: https://screeningtool.geoplatform.gov/en/methodology
+* Useful Jupyter examples for this project: https://github.com/secondspass/jupyter_bootcampproject_examples/
+* Pandas tutorial: https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/
+
+* Exploratory Data Analysis: https://medium.com/@gauravtopre9/questions-to-ask-while-eda-1a19f82fbc5d
 
 ### Datasets
 
@@ -99,7 +101,7 @@ We are going to be working with four main datasets:
 
 * temperaturedata/CtyAvTemp62016.csv - in the temperaturedata folder, each .csv file is the average temperature of the day for each county in the US and its territories. The numbers in the file name represent the date. For example CtyAvTemp61716.csv is the data for June 17 2016.
 
-* CtyAvDemog2010 data - 2010 census data with socioeconomic measures, including energy burden, health, and age demographics, averaged by county. You may need to use Google to understand what each of the headers in this data set mean.
+* CtyAvDemog2010.csv - 2010 census data with socioeconomic measures, including energy burden, health, and age demographics, averaged by county. You may need to use Google to understand what each of the headers in this data set mean.
 
 * Data and scientific inspiration and guidance for this project was developed by ORNL Scientists Melissa Dumas and Sarah Tennille.
 
