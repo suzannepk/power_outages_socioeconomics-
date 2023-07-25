@@ -1,4 +1,4 @@
-ORNL TEAM TODO: Pull the text below out of the "Introduction" notebook and rename that notebook something like exploring data. Tighten up the organiztion in the the 4 notebooks. Put links to them in this guide. Strech goals add the MPI stuff to the interpolation/aggrigation notebooks. Add more insturctions in choropleth notebook. 
+Stretch goals: Add an MPI section to the interpolation/aggregation notebooks.
 
 # Power Outages and Socioeconomics
 ECP Bootcamp 
@@ -112,35 +112,35 @@ We are going to be working with four main datasets:
 The exercises and tutorials linked below are in Jupyter notebooks and will familiarize you with the provided data and prepare you to answer the the big questions.
 
 1. [Exploring Data](1_Exploring_Datasets.ipynb)
-  * Analyzing data using Google Sheets
+      * Analyzing data using Google Sheets
   
 2. [Python Intro](2_Python_Pandas_Intro.ipynb) 
-  * Reading Excel Files, Filtering Data (Movie Dataset)
-  * Plotting Data using Pandas & Matplotlib (Movie Dataset)
-  * Practice with Real Data (Temperature Data)
-  * Merging dataframes
+      * Reading Excel Files, Filtering Data (Movie Dataset)
+      * Plotting Data using Pandas & Matplotlib (Movie Dataset)
+      * Practice with Real Data (Temperature Data)
+      * Merging dataframes
 
-3. [Time-Series Data](3_Time_Series_Data.ipynb) - https://github.com/suzannepk/power_outages_socioeconomics-/blob/master/3_TimeSeries_Visualization.ipynb
-  * Representing time-series data with line-charts
-  * Up-sampling data with numpy
-  * Calculating average and median number of power outages
-  * Merging aggregated data with regular dataframe
+3. [Time-Series Data](3_Time_Series_Data.ipynb) 
+      * Representing time-series data with line-charts
+      * Up-sampling data with numpy
+      * Calculating average and median number of power outages
+      * Merging aggregated data with regular dataframe
     
 4. [Visualizations using Maps](4_Map_Visualizations.ipynb)
-  * Pandas map plot
-  * Geopandas interactive map
+      * Pandas map plot
+      * Geopandas interactive map
 5. [Correlation Analysis](5_CorrelationAnalysis.ipynb)
-  * Correlation vs Causation
-  * Pearson Correlation
-  * Spearman Correlation
-  * P-value
-  * Histogram
-  * Scatterplot
-  * Correlation Test
-  * Interpreting Spearman Rank Score & p-value
-  * Interpreting statistically significant p-value
-  * Correlation Matrix
-     
+      * Correlation vs Causation
+      * Pearson Correlation
+      * Spearman Correlation
+      * P-value
+      * Histogram
+      * Scatterplot
+      * Correlation Test
+      * Interpreting Spearman Rank Score & p-value
+      * Interpreting statistically significant p-value
+      * Correlation Matrix
+         
 7. [Big Questions Working Notebook](6_Big_Questions.ipynb)
   * Working space for the addressing the Big Questions & Project Goals 
 
