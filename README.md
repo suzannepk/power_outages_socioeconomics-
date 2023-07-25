@@ -111,7 +111,8 @@ We are going to be working with four main datasets:
 
 The exercises and tutorials linked below are in Jupyter notebooks and will familiarize you with the provided data and prepare you to answer the the big questions.
 
-1. Introduction - https://github.com/suzannepk/power_outages_socioeconomics-/blob/master/1_Introduction.ipynb
+
+1. [Introduction] (https://github.com/suzannepk/power_outages_socioeconomics-/blob/b51a2ef562ec0a260261b087ac78cc3c777566e9/1_Exploring_Datasets.ipynb)
   * Analyzing data using Google Sheets
   * Introduction to Python and Pandas
   * Reading Excel Files, Filtering Data
