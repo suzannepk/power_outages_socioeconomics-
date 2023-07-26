@@ -9,6 +9,4 @@
 
 module load evp-patch
 
-cd ~/jupyter_bootcampproject_examples/eaglei_mpi_scripts
-
 srun -n8 python3 eaglei_mpi_ex2.py

@@ -9,6 +9,4 @@
 
 module load evp-patch
 
-cd ~/eaglei_mpi_scripts
-
 srun -n9 python3 eaglei_mpi.py
