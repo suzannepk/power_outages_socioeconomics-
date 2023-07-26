@@ -1,5 +1,3 @@
-Stretch goals: Add an MPI section to the interpolation/aggregation notebooks.
-
 # Power Outages and Socioeconomics
 ECP Bootcamp 
 
