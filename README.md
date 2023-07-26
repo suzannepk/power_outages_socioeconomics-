@@ -77,6 +77,7 @@ You will combine your visualizations and insights from answering the big questio
 
 #### Some reading resources:
 
+Research Project Resources:
 * Explanation of 2010 census data categories: https://screeningtool.geoplatform.gov/en/methodology
 * Map of burdened communities: https://screeningtool.geoplatform.gov/en
 * Articles about the 2016 heatwave:
@@ -86,10 +87,17 @@ You will combine your visualizations and insights from answering the big questio
 * Nice visualization of past temperature information: https://www.timeanddate.com/weather/usa/los-angeles/historic?month=6&year=2016016/historic?month=6&year=20166&year=2016
 * Medicare at risk population map: https://empowerprogram.hhs.gov/empowermap
 * FIPS Codes - https://en.wikipedia.org/wiki/List_of_United_States_FIPS_codes_by_county
+
+Python: 
 * Useful Jupyter examples for this project: https://github.com/secondspass/jupyter_bootcampproject_examples/
 * Pandas tutorial: https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/
-
 * Exploratory Data Analysis: https://medium.com/@gauravtopre9/questions-to-ask-while-eda-1a19f82fbc5d
+
+General:
+* Glossary of common research computing terms: https://researchcomputing.princeton.edu/learn/glossary
+* Resources for Research Computing: https://researchcomputing.princeton.edu/learn/tutorials/external-resources-learning
+* HPC Crash Course: https://www.olcf.ornl.gov/summer-hands-on-hpc-crash-course/
+
 
 ### Datasets
 
