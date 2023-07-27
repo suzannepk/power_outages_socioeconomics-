@@ -146,8 +146,14 @@ The exercises and tutorials linked below are in Jupyter notebooks and will famil
       * Interpreting Spearman Rank Score & p-value
       * Interpreting statistically significant p-value
       * Correlation Matrix
-         
-7. [Big Questions Working Notebook](6_Big_Questions.ipynb)
+6. [MPI Intro](eaglei_mpi_scripts/6_MPI_exercises.ipynb)
+      * Introduction to Message Passing Interface (MPI)
+      * Load and pre-process the power outage data
+      * Divide the data into chunks to distribute among MPI processes
+      * Implement parallel processing using MPI
+      * Analyze and interpret the results         
+
+8. [Big Questions Working Notebook](6_Big_Questions.ipynb)
   * Working space for the addressing the Big Questions & Project Goals 
 
 
