@@ -101,13 +101,19 @@ General:
 
 First things first, let's look at our data. We're going to be looking at our data using Excel (or Google Sheets) just so you're familiar with what the data should look like. All the data we need is in this google drive folder: https://drive.google.com/drive/folders/1fAaBPgWWaA_9VB2iYUAWeW8biTXJQFwZ?usp=sharing
 
-We are going to be working with four main datasets:
+We are going to be working with these datasets:
 
 * eaglei_outages/eaglei_outages_2016.csv - provides the breakdown of the number of customers that were out of power in the year 2016, for each county in the US, with data for each 15 minute increment covering the entire year.
 
 * temperaturedata/CtyAvTemp62016.csv - in the temperaturedata folder, each .csv file is the average temperature of the day for each county in the US and its territories. The numbers in the file name represent the date. For example CtyAvTemp61716.csv is the data for June 17 2016.
 
 * CtyAvDemog2010.csv - 2010 census data with socioeconomic measures, including energy burden, health, and age demographics, averaged by county. You may need to use Google to understand what each of the headers in this data set mean.
+
+If you want to look at the relative fraction of customers impacted per county, you need a measure of how many customers are in each county. We don't have data on the exact number of customers per county in 2016, but we do have the estimate for 2023. We also have included estimate of the total population for each county. You can chose either of these to estimate the fraction of customers per county impacted by power outages, but you will need to explain your choice.
+
+* county_customers_2023.csv - estimated number of eagle-i customers by county as of 2023
+  
+* County_Population_2010_to_2019.xlsx - population of US county by year, from 2010 to 2019
 
 * Data and scientific inspiration and guidance for this project was developed by ORNL Scientists Melissa Dumas and Sarah Tennille.
 
