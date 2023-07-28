@@ -103,19 +103,19 @@ First things first, let's look at our data. We're going to be looking at our dat
 
 We are going to be working with these datasets:
 
-* eaglei_outages/eaglei_outages_2016.csv - a series of .csv files providing the breakdown of the number of customers by county who were out of power from 2014 to 2022. The number of power outages by county is recorded in 15-minute increments across a given year. The file name indicates which year the eagle-i data was recorded, for example, eaglei_outages_2016.csv represents the data for 2016. 
+* `eaglei_outages/eaglei_outages_2016.csv` - a series of .csv files providing the breakdown of the number of customers by county who were out of power from 2014 to 2022. The number of power outages by county is recorded in 15-minute increments across a given year. The file name indicates which year the eagle-i data was recorded, for example, eaglei_outages_2016.csv represents the data for 2016. 
 
     - There is an additional dataset in this folder, eaglei_outages/eaglei_outages_July_17to20_2023.csv that contains county data in 15 minute intervals for July 17-23, a recent week in the US with high heat and storms.
 
-* temperaturedata/CtyAvTemp62016.csv - in the temperaturedata folder, each .csv file is the average temperature of the day for each county in the US and its territories. The numbers in the file name represent the date. For example, CtyAvTemp61716.csv is the data for June 17 2016.
+* `temperaturedata/CtyAvTemp62016.csv` - in the temperaturedata folder, each .csv file is the average temperature of the day for each county in the US and its territories. The numbers in the file name represent the date. For example, CtyAvTemp61716.csv is the data for June 17 2016.
 
-* CtyAvDemog2010.csv - 2010 census data with socioeconomic measures, including energy burden, health, and age demographics, averaged by county. You may need to use Google to understand what each of the headers in this data set mean.
+* `CtyAvDemog2010.csv` - 2010 census data with socioeconomic measures, including energy burden, health, and age demographics, averaged by county. You may need to use Google to understand what each of the headers in this data set mean.
 
 If you want to look at the relative fraction of customers impacted per county, you need a measure of how many customers are in each county. We don't have data on the exact number of customers per county in 2016, but we do have the estimate for 2023. We also have included an estimate of the total population for each county. You can choose either of these to estimate the fraction of customers per county impacted by power outages, but you will need to explain your choice.
 
-* county_customers_2023.csv - estimated number of eagle-i customers by county as of 2023
+* `county_customers_2023.csv` - estimated number of eagle-i customers by county as of 2023
   
-* county_population_by_year.csv - population of US county by year, from 2010 to 2019. If you want to use population to a fraction of population that was impacted, refer to this dataset that contains information from the 2010-2019 census.
+* `county_population_by_year.csv` - population of US county by year, from 2010 to 2019. If you want to use population to a fraction of population that was impacted, refer to this dataset that contains information from the 2010-2019 census.
 
 * NOTE: Something you'll find as you work with these datasets is that there might be some data missing here and there e.g. There might not be power outage information for some county for some given day. That's just the nature of data science sometimes, that the data you have isn't perfect. So you have to make sure that you're using the data you have and making sure you're accounting for any missing data when before you make any conclusions. You may need to use Excel or your favorite method to "Clean" some of the data sets. Cleaning is the process of removing problematic data, such as ASCII letters or punctuation characters that appear where numbers should be, or reformatting one set of data, so it can be compared to another set.
 
