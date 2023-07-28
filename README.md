@@ -113,7 +113,7 @@ If you want to look at the relative fraction of customers impacted per county, y
 
 * county_customers_2023.csv - estimated number of eagle-i customers by county as of 2023
   
-* County_Population_2010_to_2019.xlsx - population of US county by year, from 2010 to 2019
+* county_population_by_year.csv - population of US county by year, from 2010 to 2019. If you want to use population to fraction of population that was impacted, refer to this dataset that contains information from the 2010-2019 census.
 
 * NOTE: Something you'll find as you work with these datasets is that there might be some data missing here and there e.g. There might not be power outage information for some county for some given day. That's just the nature of data science sometimes, that the data you have isn't perfect. So you have to make sure that you're using the data you have and making sure you're accounting for any missing data when before you make any conclusions. You may need to use Excel or your favorite method to "Clean" some of the data sets. Cleaning is the process of removing problematic data, such as ASCII letters or punctuation characters that appear where numbers should be, or reformatting one set of data, so it can be compared to another set.
 
