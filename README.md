@@ -110,12 +110,17 @@ We are going to be working with these datasets:
 * `temperaturedata/CtyAvTemp62016.csv` - in the temperaturedata folder, each .csv file is the average temperature of the day for each county in the US and its territories. The numbers in the file name represent the date. For example, CtyAvTemp61716.csv is the data for June 17 2016.
 
 * `CtyAvDemog2010.csv` - 2010 census data with socioeconomic measures, including energy burden, health, and age demographics, averaged by county. You may need to use Google to understand what each of the headers in this data set mean.
+  
+* `fips-by-state.csv` - Federal Information Processing System (FIPS) Codes with county and state names. Fips codes are unique geographical identifiers of geographical areas.
 
 If you want to look at the relative fraction of customers impacted per county, you need a measure of how many customers are in each county. We don't have data on the exact number of customers per county in 2016, but we do have the estimate for 2023. We also have included an estimate of the total population for each county. You can choose either of these to estimate the fraction of customers per county impacted by power outages, but you will need to explain your choice.
 
 * `county_customers_2023.csv` - estimated number of eagle-i customers by county as of 2023
   
-* `county_population_by_year.csv` - population of US county by year, from 2010 to 2019. If you want to use population to a fraction of population that was impacted, refer to this dataset that contains information from the 2010-2019 census.
+* `county_population_by_year.csv` - population of US county by year, from 2010 to 2019, together with its fips code. If you want to use population to a fraction of population that was impacted, refer to this dataset. This dataset was extracted from the 2010-2019 census data, and combined with the `fips-by-state.csv` dataset to include the county's fips code. 
+(2010-2019 Population totals by county: https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html)
+
+(Refer here for a tutorial on how the data was cleaned using Excel: https://docs.google.com/document/d/1WGkfoKchXMT7JDb3f5qwuVnwfbSDrPb506LQ8CHUG6k/edit?usp=sharing)
 
 * NOTE: Something you'll find as you work with these datasets is that there might be some data missing here and there e.g. There might not be power outage information for some county for some given day. That's just the nature of data science sometimes, that the data you have isn't perfect. So you have to make sure that you're using the data you have and making sure you're accounting for any missing data when before you make any conclusions. You may need to use Excel or your favorite method to "Clean" some of the data sets. Cleaning is the process of removing problematic data, such as ASCII letters or punctuation characters that appear where numbers should be, or reformatting one set of data, so it can be compared to another set.
 
