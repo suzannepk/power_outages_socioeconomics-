@@ -117,7 +117,8 @@ If you want to look at the relative fraction of customers impacted per county, y
 
 * `county_customers_2023.csv` - estimated number of eagle-i customers by county as of 2023
   
-* `county_population_by_year.csv` - population of US county by year, from 2010 to 2019, together with its fips code. If you want to use population to a fraction of population that was impacted, refer to this dataset. This dataset was extracted from the 2010-2019 census data, and combined with the `fips-by-state.csv` dataset to include the county's fips code. 
+* `county_population_by_year.csv` - population of US county by year, from 2010 to 2019, together with its fips code. If you want to use population to a fraction of population that was impacted, refer to this dataset. This dataset was extracted from the 2010-2019 census data, and combined with the `fips-by-state.csv` dataset to include the county's fips code.
+
 (2010-2019 Population totals by county: https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html)
 
 (Refer here for a tutorial on how the data was cleaned using Excel: https://docs.google.com/document/d/1WGkfoKchXMT7JDb3f5qwuVnwfbSDrPb506LQ8CHUG6k/edit?usp=sharing)
