@@ -70,7 +70,7 @@ You will combine your visualizations and insights from answering the big questio
 
 * Question 4 can be mostly answered by using just the CtyAvDemog2010.csv data.
 
-* Question 5 will require you to find more data than we have provided and do a lot of interpolation. I suggest you start by googling “Hourly temperature for LA for June 20, 2016”. Remember that your eagle-I data's time is given in UTC.
+* Question 5 will require you to find more data than we have provided and do a lot of interpolation. I suggest you start by googling “Hourly temperature for LA for June 20, 2016”. Remember that your EAGLE-I data's time is given in UTC.
 
 
 #### Some reading resources:
