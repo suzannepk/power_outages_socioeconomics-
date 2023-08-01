@@ -36,7 +36,7 @@ Developed by the Office of Electricity Delivery and Energy Reliability’s (OE) 
 
 ### The Big Questions for this Project:
 
-1. Which counties were hit with the highest temperatures in 2016? Can you show it visually? (Datasets: CtyAvTemp62016.csv)
+1. Which counties were hit with the highest temperatures during the heatwave between June 17 to 24, 2016? Can you show it visually? (Datasets: CtyAvTemp62016.csv)
 
 2. Can you show the average number of customers without power per county during the heatwave? Can you visualize it for the whole US? (Data sets: eaglei_outages_2016.csv, CtyAvTemp62016.csv)
 
