@@ -40,7 +40,7 @@ Developed by the Office of Electricity Delivery and Energy Reliability’s (OE) 
 
 2. Can you show the average number of customers without power per county during the heatwave? Can you visualize it for the whole US? (Data sets: eaglei_outages_2016.csv, CtyAvTemp62016.csv)
 
-3. Do counties with many people living below the poverty line have more power outages on average than wealthier counties? (Data sets: CtyAvDemog2010, aglei_outages_2016.csv) Can you use statistical tests to justify your answer? Is what you found true generally for all counties in the study? Is it still true for the counties hardest hit by the heatwave during the heatwave? Are there any other factors expressed in the data that correlate with large numbers of outages per county?
+3. Do counties with many people living below the poverty line have more power outages on average than wealthier counties? (Data sets: CtyAvDemog2010, eaglei_outages_2016.csv) Can you use statistical tests to justify your answer? Is what you found true generally for all counties in the study? Is it still true for the counties hardest hit by the heatwave during the heatwave? Are there any other factors expressed in the data that correlate with large numbers of outages per county?
 
 4. Do citizens living below the poverty level bear a greater share of the energy burden in most counties? Can you use statistical tests to justify your answer? What does this look like for the counties that you identified as impacted most by the heatwave? (Datasets: CtyAvDemog2010 data, eaglei_outages_2016.csv)
 
