@@ -131,22 +131,27 @@ The exercises and tutorials linked below are in Jupyter notebooks and will famil
 
 1. [Exploring Data](1_Exploring_Datasets.ipynb)
       * Analyzing data using Google Sheets
+      * This notebook may be useful to help you understand what the data looks like for all of the big questions and if you need to capture clean a small data set for question 5.  
   
 2. [Python Intro](2_Python_Pandas_Intro.ipynb) 
       * Reading Excel Files, Filtering Data (Movie Dataset)
       * Plotting Data using Pandas & Matplotlib (Movie Dataset)
       * Practice with Real Data (Temperature Data)
       * Merging dataframes
+      * This notebook will teach you how to use Python and Pandas and how to make simple plots, and how to filter and merge dataframes- a skill that will be key to answering some of the big questions.
+
 
 3. [Time-Series Data](3_Time_Series_Data.ipynb) 
       * Representing time-series data with line-charts
       * Up-sampling data with numpy
       * Calculating average and median number of power outages
       * Merging aggregated data with regular dataframe
+      * This notebook may be particularly helpful for questions 5 and for any time you want to study and compare the length of time that the power was out for a set of counties. 
     
 4. [Visualizations using Maps](4_Map_Visualizations.ipynb)
       * Pandas map plot
       * Geopandas interactive map
+      * This notebook sets you up nicely to do visualizations to support the first 4 big questions.
 5. [Correlation Analysis](5_CorrelationAnalysis.ipynb)
       * Correlation vs Causation
       * Pearson Correlation
@@ -158,12 +163,14 @@ The exercises and tutorials linked below are in Jupyter notebooks and will famil
       * Interpreting Spearman Rank Score & p-value
       * Interpreting statistically significant p-value
       * Correlation Matrix
+      * This will allow you to put quantitative power behind the insights you get from your visualizations and may be particularly helpful for answering parts of big question 3.
 6. [MPI Intro](eaglei_mpi_scripts/6_MPI_exercises.ipynb)
       * Introduction to Message Passing Interface (MPI)
       * Load and pre-process the power outage data
       * Divide the data into chunks to distribute among MPI processes
       * Implement parallel processing using MPI
-      * Analyze and interpret the results         
+      * Analyze and interpret the results
+      * This may help you do your work faster if you are looking at all the years of data provided. This is the HPC part of the project and is a good tutorial for mpi4py even if you don't use it to answer any of the big questions.    
 
 8. [Big Questions Working Notebook](6_Big_Questions.ipynb)
   * Working space for addressing the Big Questions & Project Goals 
