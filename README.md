@@ -103,7 +103,7 @@ First things first, let's look at our data. We're going to be looking at our dat
 
 We are going to be working with these datasets:
 
-* `eaglei_outages/eaglei_outages_2016.csv` - a series of .csv files providing the breakdown of the number of customers by county who were out of power from 2014 to 2022. The number of power outages by county is recorded in 15-minute increments across a given year. The file name indicates which year the eagle-i data was recorded, for example, eaglei_outages_2016.csv represents the data for 2016. 
+* `eaglei_outages/eaglei_outages_2016.csv` - a series of .csv files providing the breakdown of the number of customers by county who were out of power from 2014 to 2022. The number of power outages by county is recorded in 15-minute increments across a given year. The file name indicates which year the eagle-i data was recorded, for example, eaglei_outages_2016.csv represents the data for 2016. This material is based upon work supported by the U.S. Department of Energy’s Office of Cybersecurity, Energy, Security, and Emergency Response.
 
     - There is an additional dataset in this folder, eaglei_outages/eaglei_outages_July_17to20_2023.csv that contains county data in 15 minute intervals for July 17-23, a recent week in the US with high heat and storms.
 
